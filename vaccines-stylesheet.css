@@ -39,9 +39,6 @@ body {
     font-size: 32px;
     margin-top: 10px;
     margin-left:15px;
-<<<<<<< HEAD
-    -webkit-text-stroke: 1.3px rgb(24, 27, 29);
-=======
+        -webkit-text-stroke: 0.3px rgb(79,82,84);
     -webkit-text-stroke: 1.5px rgb(24, 27, 29);
->>>>>>> 5057242bc152e46c4297e8b7e2b37140345d5f5a
 }
