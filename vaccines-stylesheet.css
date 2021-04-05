@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+}
+
+
+.triangle {
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+}
+
+.triangle::before {
+    position: absolute;
+    content: ' ';
+    border-top: 100vh solid rgb(129, 206, 255);
+    border-right: 100vw solid transparent;
+    width: 0;
+    margin-top: 0px;
+}
+
+.content {
+    position: absolute;
+    color: white;
+}
+
+.header {
+    font-family: 'Staatliches', cursive;
+    font-size: 52px;
+    margin-top:5px;
+    margin-bottom:-12px;
+    margin-left:15px;
+    -webkit-text-stroke: 0.3px rgb(79,82,84);
+}
+
+.subheader {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left:15px;
+    -webkit-text-stroke: 1.3px rgb(24, 27, 29);
+}
