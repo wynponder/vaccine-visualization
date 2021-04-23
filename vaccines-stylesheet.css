@@ -1,5 +1,6 @@
 body {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
@@ -8,20 +9,25 @@ h1 {
     color: rgb(1, 22, 49);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    text-align: center;
-    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    font-size: 42pt;
+    height: 82px;
+    width: 100%;
+    max-width: 1672px;
     margin-bottom: 4px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 h2 {
     color: rgb(1, 22, 49);
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    text-align: center;
-    font-size: 24px;
-    margin-top: 1px;
-    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-size: 32pt;
+    margin-top: -5px;
+    letter-spacing: 2px;
 }
 
 h3 {
@@ -61,24 +67,21 @@ p {
     float:left;
 }*/
 
-.covid-one {
-    display: flex;
-    height: 100px;
-    width: 200px;
+.data-comparison-one {
+    /* display: flex;
     flex-direction: row;
-    justify-content: right;
-    margin-top: 100px;
-    margin-left: -10px;
-
+    justify-content: space-around;*/
+    height: 100px;
+    width: 100%;
+    transform: translate(150px, -150px);
+    display:inline-block;
+    /*margin-top: 100px;
+    margin-left: -10px;*/
 }
 
-/*.orange-paragraph {
-    padding-top: 1px;
-    margin-top: 1px;
-}*/
 
 
-.data-info-one {
+.data-text-one {
     border-left: 2px solid rgb(232, 93, 38);
     border-collapse: separate;
     border-spacing: 50px;
@@ -90,23 +93,27 @@ p {
 
 .orange-virus {
     color: rgb(232, 93, 38);
-    order: -1;
+    width: 100%;
+    transform: translate(-100px,150px);
+    display:inline-block;
 }
 
-.covid-two {
-    display: flex;
-    height: 100px;
-    width: 200px;
+.data-comparison-two {
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 800px;
+    justify-content: space-around;*/
+    height: 100px;
+    width: 100%;
+    transform: translate(1450px, -450px);
+    display:inline-block;
+    /*margin-left: 800px;
     margin-right: 10px;
     padding-right: 15px;
-    margin-top: -100px;
+    margin-top: -100px;*/
 }
 
 
-.data-info-two {
+.data-text-two {
     border-left: 2px solid rgb(246, 189, 96);
     border-collapse: separate;
     border-spacing: 50px;
@@ -117,23 +124,28 @@ p {
 
 .yellow-virus {
     color: rgb(246, 189, 96);
-    order: -1;
-    padding-right: 10px;
+    width: 100%;
+    transform: translate(-100px, 175px);
+    display:inline-block;
+    /*padding-right: 10px;
     margin-right: 10px;
+    order: -1;*/
 }
 
-.covid-three {
-    display: flex;
-    height: 100px;
-    width: 200px;
+.data-comparison-three {
+    /* display: flex;
     flex-direction: row;
-    justify-content: right;
-    margin-top: 600px;
-    margin-left: -50px;
+    justify-content: space-around;*/
+    height: 100px;
+    width: 100%;
+    transform: translate(150px, -350px);
+    display:inline-block;
+    /*margin-top: 600px;
+    margin-left: -50px;*/
 }
 
 
-.data-info-three {
+.data-text-three {
     border-left: 2px solid rgb(61, 90, 128);
     border-collapse: separate;
     border-spacing: 50px;
@@ -141,21 +153,67 @@ p {
     margin-bottom: -45px;
     padding-bottom: -45px;
     padding-right: -100px;
-    margin-right:-100px;
+    margin-right: -100px;
+    width: 100%;
 }
 
 .navy-virus {
-    color:  rgb(61, 90, 128);
-    order: -1;
-    margin-left:75px;
+    color: rgb(61, 90, 128);
+    width: 100%;
+    transform: translate(-100px,150px);
+    display:inline-block;
+    /* margin-left: 75px;
     margin-right: -50px;
     margin-top: 75px;
+    order: -1;*/
+}
+
+.data-comparison-four {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;*/
+    height: 100px;
+    width: 100%;
+    transform: translate(1450px, -620px);
+    display:inline-block;
+    /*margin-top: 100px;
+    margin-left: -10px;*/
+}
+
+
+
+.data-text-four {
+    border-left: 2px solid rgb(152, 193, 217);
+    border-collapse: separate;
+    border-spacing: 50px;
+    padding-left: 10px;
+    margin-bottom: -45px;
+    padding-bottom: -45px;
+}
+
+
+.blue-virus {
+    color: rgb(152, 193, 217);
+    width: 100%;
+    transform: translate(-125px, 175px);
+    display:inline-block;
+    /*padding-left: 30px;
+    margin-left: 30px;
+    margin-right: -50px;
+    margin-top: 25px;
+    order: -1;*/
 }
 
 .total-vaccines {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -200px;
+    height: 100px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-25px, -900px);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;*/
+    /*margin-top: -200px;
+    margin-left: -200px;*/
 }
