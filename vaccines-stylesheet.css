@@ -168,3 +168,23 @@ svg {
     height:auto;
     display: flex;
 }
+
+#admin {
+    position:relative;
+    bottom: 50%;
+    top:50%;
+    left:50%;
+    font-size: 32px;
+    fill: #011631;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*#usa {
+    position:relative;
+    bottom: 25%;
+    top:25%;
+    left:25%;
+    font-size: 32px;
+    fill: #011631;
+    font-family: 'Montserrat', sans-serif;  
+}*/
